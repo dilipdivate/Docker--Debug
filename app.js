@@ -12,7 +12,7 @@ var LINES = [
 ];
 
 var lineIndex = 0;
-
+//Using Express
 var app = express();
 app.engine('html', expressHandlebars());
 app.set('view engine', 'html');
